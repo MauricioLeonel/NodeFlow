@@ -74,7 +74,7 @@ async function executeQueries(projectId, sessionId, queries, languageCode) {
 }
 
 
-app.post('/telegram',async (req,res)=>{
+app.post('/cualca',async (req,res)=>{
   // console.log(req.body.text,'body')
   const {text,idUser} = req.body
   queries.push(text)
